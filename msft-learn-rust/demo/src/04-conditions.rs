@@ -32,7 +32,7 @@ fn main() {
 }
 
 // LESSON 4.4: Work with compound types
-// LESSON 4.6: Work withif/else conditions
+// LESSON 4.6: Work with if/else conditions
 
 #[derive(PartialEq, Debug)]
 // Declare Car struct to describe vehicle with four named fields

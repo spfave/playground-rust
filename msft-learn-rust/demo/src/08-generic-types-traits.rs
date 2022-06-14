@@ -41,20 +41,20 @@ fn main() {
         ]
     );
 
-    // let data2 = vec![1, 2, 2, 1, 1, 2, 2, 3, 4, 4, 3];
+    let data2 = vec![1, 2, 2, 1, 1, 2, 2, 3, 4, 4, 3];
     // groups:                |->|---->|---->|-----|->|---->|->|
-    // assert_eq!(
-    //     Groups::new(data2).into_iter().collect::<Vec<Vec<_>>>(),
-    //     vec![
-    //         vec![1],
-    //         vec![2, 2],
-    //         vec![1, 1],
-    //         vec![2, 2],
-    //         vec![3],
-    //         vec![4, 4],
-    //         vec![3],
-    //     ]
-    // )
+    assert_eq!(
+        Groups::new(data2).into_iter().collect::<Vec<Vec<_>>>(),
+        vec![
+            vec![1],
+            vec![2, 2],
+            vec![1, 1],
+            vec![2, 2],
+            vec![3],
+            vec![4, 4],
+            vec![3],
+        ]
+    )
 }
 
 #[derive(Debug)]
@@ -88,6 +88,9 @@ impl<T: PartialEq> Iterator for Groups<T> {
                 break;
             }
         }
+        // while &self.inner.get(count) == &Some(val) {
+        //     count += 1;
+        // }
 
         let items = self.inner.drain(0..count).collect();
         Some(items)

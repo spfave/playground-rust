@@ -73,7 +73,7 @@ impl<T: PartialEq> Iterator for Groups<T> {
 
     // TODO: Write the rest of this implementation.
     fn next(&mut self) -> Option<Self::Item> {
-        // Once inner vector is empty iteration is donw
+        // Once inner vector is empty iteration is done
         if self.inner.is_empty() {
             return None;
         }

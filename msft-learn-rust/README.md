@@ -1,5 +1,5 @@
-# **MSFT Learn: Rust First Steps**
-> [MSFT Learn Course Site](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/)
+# **Sandbox: MSFT Learn - First Steps with Rust**
+> [MSFT Learn - First Steps with Rust](https://docs.microsoft.com/en-us/learn/paths/rust-first-steps/)
 
 ## **Description**
 Learn the foundation of knowledge you need to build fast and effective programs in Rust.
@@ -15,4 +15,4 @@ Topics covered:
 - Create a command-line program.
 
 Projects
-- Command line To-Do application
+- Command line To-Do list application

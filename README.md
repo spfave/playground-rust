@@ -5,3 +5,4 @@
 ## **Sandboxes**
 - [MSFT Learn Rust](./msft-learn-rust)
   - [Rust Demos](./msft-learn-rust/demos/)
+  - [CLI To-Do App](./msft-learn-rust/rusty-to-do/)

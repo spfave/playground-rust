@@ -13,3 +13,6 @@ Topics covered:
 - Set up modules for packages and crates.
 - Write and run automated tests.
 - Create a command-line program.
+
+Projects
+- Command line To-Do application

@@ -1,4 +1,4 @@
-# **Rust Sandbox**
+# **Rust Playground**
 > [Rust Site](https://www.rust-lang.org/)
 
-## **Playgrounds**
+## **Sandboxes**
